@@ -3,4 +3,4 @@ const Text = styled('p')`
   fontWeight: ({weight}) => weight ? weight : 400,
   fontSize: ({size}) => size ? size : '1.6rem',
   fontStyle: ({fontStyle}) => fontStyle ? fontStyle : 'normal'
-`
+`;
