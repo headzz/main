@@ -12,7 +12,7 @@ function tick() {
     <Wrapper>
       <div>
         <h1>Hello, world!</h1>
-        <Text>Quer Descobrir os produtos ideais para sua rotina?</Text>
+        <Text>Quer Descobrir os produtos ideais para SUA ROTINA?</Text>
       </div>
     </Wrapper>
   );
