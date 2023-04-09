@@ -6,7 +6,6 @@
 */
 // React and ReactDOM are already imported in you HTML
 // Also import / require are NodeJS thing that doesn't exist in a browser
-import {Test} from "./test"
 
 function tick() {
   const element = (
