@@ -1,6 +1,6 @@
-const Text = window.styled.p`
-  font-family:  'Jost', serif;
-  font-weight: 400;
-  font-size: 1.6rem;
-  font-style: normal;
-`
+const Text = window.styled.p({
+  fontFamily:  `'Jost', serif`,
+  fontWeight: 400,
+  fontSize: '1.6rem',
+  fontStyle: 'normal'
+})
