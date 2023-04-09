@@ -12,7 +12,6 @@ function tick() {
     <Wrapper>
       <div>
         <h1>Hello, world!</h1>
-        <Test />
         <h2>It is {new Date().toLocaleTimeString()}.</h2>
       </div>
     </Wrapper>
