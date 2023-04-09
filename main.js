@@ -13,6 +13,7 @@ function tick() {
       <div>
         <h1>Hello, world!</h1>
         <h2>It is {new Date().toLocaleTimeString()}.</h2>
+        <Text>Quer Descobrir os produtos ideais para sua rotina?</Text>
       </div>
     </Wrapper>
   );
