@@ -1,4 +1,4 @@
-const ButtonInvisible = styled('button')({
+const ButtonInvisible = styled.button({
   border: 0,
   background: 0,
   color: ({color}) => color ? color : '#fff',
