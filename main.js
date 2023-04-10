@@ -13,6 +13,7 @@ function tick() {
       <div>
         <h1>Hello, world!</h1>
         <Text>Quer Descobrir os produtos ideais para SUA ROTINA?</Text>
+        <ButtonInvisible><Text>Quero! {'>'}</Text></ButtonInvisible>
       </div>
     </Wrapper>
   );
