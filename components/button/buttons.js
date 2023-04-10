@@ -13,8 +13,10 @@ const PrimaryButton = styled.button({
   borderRadius: '16px',
   padding: ({padding}) => padding ? padding : '16px',
   ["& > p"]: { color: '#3a0065'},
-  ["&:hover > p"]: {backgroundColor: '#3a0065', color: '#fff', border: 0},
-  ["&:focus > p"]: { backgroundColor: '#fff', color: '#3a0065', border: '2px solid #883ec3' },
+  ["&:hover"]: {backgroundColor: '#3a0065', border: 0},
+  ["&:hover > p"]: { color: '#fff'},
+  ["&:focus"]: { backgroundColor: '#fff', border: '2px solid #883ec3' },
+  ["&:focus > p"]: { color: '#3a0065', },
 })
 
 const SecondaryButton = styled.button({
@@ -22,6 +24,8 @@ const SecondaryButton = styled.button({
   border: '1px solid #fff',
   borderRadius: '16px',
   padding: ({padding}) => padding ? padding : '16px',
-  ["&:hover > p"]: {backgroundColor: '#e9e800', color: '#3a0065', border: 0},
-  ["&:focus > p"]: { backgroundColor: '#fff', color: '#3a0065', border: '2px solid #883ec3' },
+  ["&:hover"]: {backgroundColor: '#e9e800', border: 0},
+  ["&:hover > p"]: { color: '#3a0065'},
+  ["&:focus"]: { backgroundColor: '#fff', border: '2px solid #883ec3' },
+  ["&:focus > p"]: { color: '#3a0065', },
 })
