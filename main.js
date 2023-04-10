@@ -14,8 +14,8 @@ function tick() {
         <h1>Hello, world!</h1>
         <Text>Quer Descobrir os produtos ideais para SUA ROTINA?</Text>
         <ButtonInvisible><Text>Quero! {'>'}</Text></ButtonInvisible>
-        <PrimaryButton><Text>BUTTON PRIMARY</Text></PrimaryButton>
-        <SecondaryButton><Text>BUTTON SECONDARY</Text></SecondaryButton>
+        <PrimaryButton><Text weight="800">BUTTON PRIMARY</Text></PrimaryButton>
+        <SecondaryButton><Text weight="800">BUTTON SECONDARY</Text></SecondaryButton>
       </div>
     </Wrapper>
   );
