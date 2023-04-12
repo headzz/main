@@ -1,4 +1,4 @@
-export const pageTexts = {
+const pageTexts = {
   beginTextJost: <>QUER DESCOBRIR <br/>OS PRODUTOS <br/>IDEAIS PARA A</>,
   beginText: <>SUA ROTINA <br />DE SKINCARE?</>,
   beginButton: 'QUERO! >',
