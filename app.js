@@ -10,9 +10,9 @@ function App() {
     daytimeRoutine: <DaytimeRoutine />,
     nightRoutine: <NightRoutine />,
     endFlow: <EndPage />,
-    // middleContent: <MiddleContent />,
-    // dryFirstPage: <DryFirstPage />,
-    // normalFirstPage: <NormalFirstPage />,
+    middleContent: <MiddleContent />,
+    dryFirstPage: <DryFirstPage />,
+    normalFirstPage: <NormalFirstPage />,
     productDetailPage: <ProductDetailPage />
   }
 
