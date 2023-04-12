@@ -31,7 +31,7 @@ const ROUTINES_DATA = {
       hidratacao: {link: 'vichyMineral', src:"./images/products/vichy-mineral.webp"},
       protetor: {link: 'clarinsDouble', src:"./images/products/clarins-paris.webp"}
     },
-    qrCode: './images/loucas-por-beleza/pele-mista.png'
+    qrCode: './images/loucas-por-beleza/pele-mista.svg'
   },
   dry: {
     daytime: {
@@ -46,7 +46,7 @@ const ROUTINES_DATA = {
       hidratacao: {link: 'biodermaAtoderm', src:"./images/products/bioderma-atoderm-intensive-baume.webp"},
       protetor: {link: 'skinceuticalsFerulic', src:"./images/products/skinceuticals-ferulic.webp"}
     },
-    qrCode: './images/loucas-por-beleza/pele-seca.png'
+    qrCode: './images/loucas-por-beleza/pele-seca.svg'
   },
   oily: {
     daytime: {
@@ -61,7 +61,7 @@ const ROUTINES_DATA = {
       hidratacao: {link: 'laRocheposay', src:"./images/products/la-roche-posay-effaclar-mat-hidratante.webp" },
       protetor: {link: 'esthedermIntensive', src:"./images/products/esthederm-intensive-propolis.webp"},
     },
-    qrCode: './images/loucas-por-beleza/pele-oleosa.png'
+    qrCode: './images/loucas-por-beleza/pele-oleosa.svg'
   },
   normal: {
     daytime: {
@@ -76,7 +76,7 @@ const ROUTINES_DATA = {
       hidratacao: {link: 'vichyMineral', src:"./images/products/vichy-mineral.webp"},
       protetor: {link: 'cliniqueSmart', src:"./images/products/clinique-smart-night.webp"},
     },
-    qrCode: './images/loucas-por-beleza/pele-equilibrada.png'
+    qrCode: './images/loucas-por-beleza/pele-equilibrada.svg'
   }
 }
 

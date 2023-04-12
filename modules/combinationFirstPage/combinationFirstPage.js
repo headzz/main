@@ -1,5 +1,5 @@
 const CombinationFirstPage = () => {
-  const {combination_first_page_jost_text, combination_first_page_alternate_text, combination_first_page_description_text} = pageTexts
+  const {combination_first_page_jost_text, first_page_description_text} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
@@ -7,10 +7,9 @@ const CombinationFirstPage = () => {
     <Flex>
       <StyleCombinationFirstPageText>
         <Text align="center" weight="200">{combination_first_page_jost_text}</Text>
-        <Text align="center" alternateFamily weight="200">{combination_first_page_alternate_text}</Text>
       </StyleCombinationFirstPageText>
       <StyleCombinationFirstPageDescription>
-        <Text align="center" size="3.6rem" weight="200">{combination_first_page_description_text}</Text>
+        <Text align="center" size="3.6rem" weight="200">{first_page_description_text}</Text>
       </StyleCombinationFirstPageDescription>
     </Flex>
     
@@ -26,3 +25,5 @@ const CombinationFirstPage = () => {
     </NextPagePosition>
   </Wrapper>
 }
+
+export default CombinationFirstPage

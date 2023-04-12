@@ -1,17 +1,18 @@
 const NormalFirstPage = () => {
   
-  const {normal_title, normal_end} = pageTexts
+  const {normal_title, first_page_description_text} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
   return <Wrapper>
     <Flex>
       <StyleNormalContentText>
-        <Text align="center" weight="200" alternateFamily>{normal_title}</Text>
-        <Text align="center" weight="200" size="3.6rem">O seu rosto não apresenta excesso de brilho, poros e perfeito equilíbrio entre água e sebo: 
-          nem gordura demais, nem ressecamento de menos.</Text>
-        <Text align="center" weight="200" size="3.6rem">{normal_end}</Text>
+        <Text align="center" weight="200">{normal_title}</Text>
       </StyleNormalContentText>
+
+      <StyleDryContentDescription>
+        <Text align="center" weight="200" size="3.6rem">{first_page_description_text}</Text>
+      </StyleDryContentDescription>
     </Flex>
     
     <BackPagePosition>
@@ -20,7 +21,7 @@ const NormalFirstPage = () => {
       </ButtonInvisible>
     </BackPagePosition>
     <NextPagePosition>
-      <ButtonInvisible onClick={() => {dataContent.setContent('middleContent'); dataContent.setSteps('normal_middle')}}>
+      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps('normal_create')}}>
         <Text size="2.8rem" weight="400">{'>'}</Text>
       </ButtonInvisible>
     </NextPagePosition>

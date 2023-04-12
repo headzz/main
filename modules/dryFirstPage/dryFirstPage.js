@@ -1,6 +1,6 @@
 const DryFirstPage = () => {
   
-  const {dry_skin_jost, dry_skin_alternate, dry_skin_end} = pageTexts
+  const { dry_skin_jost, first_page_description_text } = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
@@ -8,9 +8,10 @@ const DryFirstPage = () => {
     <Flex>
       <StyleDryContentText>
         <Text align="center" weight="200">{dry_skin_jost}</Text>
-        <Text align="center" weight="200" alternateFamily>{dry_skin_alternate}</Text>
-        <Text align="center" weight="200">{dry_skin_end}</Text>
       </StyleDryContentText>
+      <StyleDryContentDescription>
+        <Text align="center" size="3.6rem" weight="200">{first_page_description_text}</Text>
+      </StyleDryContentDescription>
     </Flex>
     
     <BackPagePosition>
@@ -19,7 +20,7 @@ const DryFirstPage = () => {
       </ButtonInvisible>
     </BackPagePosition>
     <NextPagePosition>
-      <ButtonInvisible onClick={() => {dataContent.setContent('middleContent'); dataContent.setSteps('dry_middle')}}>
+      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps('dry_create')}}>
         <Text size="2.8rem" weight="400">{'>'}</Text>
       </ButtonInvisible>
     </NextPagePosition>
