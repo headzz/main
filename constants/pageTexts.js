@@ -1,0 +1,22 @@
+const pageTexts = {
+  beginTextJost: 'QUER DESCOBRIR OS PRODUTOS IDEAIS PARA',
+  beginText: 'SUA ROTINA? ✨',
+  beginButton: 'QUERO! >',
+  chooseSkinTypeTextJost: "ENTÃO VAMOS LÁ. QUAL É O SEU",
+  chooseSkinTypeText: "TIPO DE PELE?",
+  create_routine_jost: "VAMOS CRIAR JUNTAS O SEU RITUAL DE",
+  create_routine: "SKINCARE DIÁRIO?",
+  routine_description: "ESSA É A COMBINAÇÃO PERFEITA PRA VOCÊ",
+  combination_first_page_jost_text: "SUA PELE TEM OLEOSIDADE EXCESSIVA NA ZONA T DO ROSTO,",
+  combination_first_page_alternate_text: "EXIGINDO CUIDADOS ESPECÍFICOS.",
+  combination_first_page_description_text: "Ainda bem que a BLZ tem as melhores marcas para combinar e criar a rotina perfeita para você ter uma pele cada vez melhor.",
+  daytime_routine: 'ROTINA DIURNA',
+  night_routine: 'ROTINA NOTURNA',
+  end_title: 'OBRIGADA!',
+  end_description: 'AGORA, APROVEITE PARA DESCOBRIR A BELEZA EM NOSSA LOJA E RENOVE SEU NÉCESSAIRE.',
+  dry_skin_jost:'BEM, A PELE SECA EXIGE ALGUNS',
+  dry_skin_alternate: 'CUIDADOS EXTRAS,',
+  dry_skin_end: 'POR EXEMPLO, ESCOLHER UM LIMPADOR FACIAL SEM ÁLCOOL OU SULFATO.',
+  normal_title: 'AH, QUE LEGAL!',
+  normal_end: 'Mesmo assim, requer cuidados especiais.'
+}
