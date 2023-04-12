@@ -22,6 +22,8 @@ const OilyFirstPage = () => {
   }
 
   const oilyTitleTextPage = transformString(oily_title);
+  const firstPageDescriptionGlobal = transformString(first_page_description_text)
+
   return <Wrapper>
     <Flex>
       <StyleOilyContentText>

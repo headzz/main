@@ -16,8 +16,8 @@ const BeginTextWrapper = styled.div({
 })
 
 const SpanBegin = styled.div({
-  bottom: '150px',
-    left: '93%',
+  bottom: '145px',
+    left: '230px',
     position: 'absolute',
     fontSize: '3rem'
 })

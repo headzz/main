@@ -4,6 +4,8 @@ const NormalFirstPage = () => {
 
   const dataContent = React.useContext(ContentContext);
 
+  const firstPageDescriptionGlobal = transformString(first_page_description_text)
+
   return <Wrapper>
     <Flex>
       <StyleNormalContentText>

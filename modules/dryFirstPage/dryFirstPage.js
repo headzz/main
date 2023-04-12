@@ -22,6 +22,7 @@ const DryFirstPage = () => {
   } 
 
   const drySkinTitlePAge = transformString(dry_skin_jost);
+  const firstPageDescriptionGlobal = transformString(first_page_description_text)
 
   return <Wrapper>
     <Flex>
