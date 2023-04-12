@@ -33,3 +33,11 @@ const DaytimeRoutineWrapper = styled.div({
   justifyItems: 'center'
 })
 
+const QRCodeSkinImage = styled.img({
+  bottom:'64px',
+  height: '180px',
+  left: 'calc(50% - 90px);',
+  objectFit: 'cover',
+  position: 'absolute',
+  width: '180px'
+})

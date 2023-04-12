@@ -30,7 +30,8 @@ const ROUTINES_DATA = {
       tonico: {link: 'vichyNormaderm', src:"./images/products/tonico-vichy-normaderm.webp"},
       hidratacao: {link: 'vichyMineral', src:"./images/products/vichy-mineral.webp"},
       protetor: {link: 'clarinsDouble', src:"./images/products/clarins-paris.webp"}
-    }
+    },
+    qrCode: './images/loucas-por-beleza/pele-mista.png'
   },
   dry: {
     daytime: {
@@ -44,7 +45,8 @@ const ROUTINES_DATA = {
       tonico: {link: 'clarinsSoothing', src:"./images/products/clarins-soothing-tonico.webp"},
       hidratacao: {link: 'biodermaAtoderm', src:"./images/products/bioderma-atoderm-intensive-baume.webp"},
       protetor: {link: 'skinceuticalsFerulic', src:"./images/products/skinceuticals-ferulic.webp"}
-    }
+    },
+    qrCode: './images/loucas-por-beleza/pele-seca.png'
   },
   oily: {
     daytime: {
@@ -58,7 +60,8 @@ const ROUTINES_DATA = {
       tonico: {link: 'skinceuticalsBlemish', src:"./images/products/skinceuticals-tonico-blemish-age.webp" },
       hidratacao: {link: 'laRocheposay', src:"./images/products/la-roche-posay-effaclar-mat-hidratante.webp" },
       protetor: {link: 'esthedermIntensive', src:"./images/products/esthederm-intensive-propolis.webp"},
-    }
+    },
+    qrCode: './images/loucas-por-beleza/pele-oleosa.png'
   },
   normal: {
     daytime: {
@@ -72,7 +75,8 @@ const ROUTINES_DATA = {
       tonico: {link: 'dermageGlycolique', src:"./images/products/dermage-glycolique-daily.webp"},
       hidratacao: {link: 'vichyMineral', src:"./images/products/vichy-mineral.webp"},
       protetor: {link: 'cliniqueSmart', src:"./images/products/clinique-smart-night.webp"},
-    }
+    },
+    qrCode: './images/loucas-por-beleza/pele-equilibrada.png'
   }
 }
 
