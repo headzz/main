@@ -37,13 +37,13 @@ const ROUTINES_DATA = {
     daytime: {
       limpeza: {link: 'darrowNutriol', name: 'Darrow Nutriol', src:"src/images/products/darrow-nutriol.webp", description: 'LIMPA E SUAVIZA COM NUTRIÇÃO INTENSA.', breakname: false},
       tonico: {link: 'clarinsSoothing', name: 'Clarins Soothing', src:"src/images/products/clarins-soothing-tonico.webp", description: 'HIDRATA A SUA PELE, DEIXANDO-A MACIA E SUAVE.', breakname: false},
-      hidratacao: {link: 'biodermaAtoderm', name: 'Bioderma Atoderm Intensive Baume', src:"src/images/products/bioderma-atoderm-intensive-baume.webp",description: <>ALIVIA DESCONFORTO, <br/>ALÉM DE HIDRATAR E NUTRIR.</>, breakname: false},
-      protetor: {link: 'skinAquaSuperMoisture', name: <>Skin Aqua UV Super <br/> Moisture Essence FPS 50</>, src:"src/images/products/skin-aqua-uv-super-moisture.webp", description: 'PROTEÇÃO E HIDRATAÇÃO COM TEXTURA LEVE E DE RÁPIDA ABSORÇÃO.'	, breakname: true},
+      hidratacao: {link: 'biodermaAtoderm', name: 'Bioderma Atoderm Intensive Baume', src:"src/images/products/bioderma-atoderm-intensive-baume.webp",description: 'ALIVIA DESCONFORTO, <br/>ALÉM DE HIDRATAR E NUTRIR.', breakname: false},
+      protetor: {link: 'skinAquaSuperMoisture', name: 'Skin Aqua UV Super <br/> Moisture Essence FPS 50', src:"src/images/products/skin-aqua-uv-super-moisture.webp", description: 'PROTEÇÃO E HIDRATAÇÃO COM TEXTURA LEVE E DE RÁPIDA ABSORÇÃO.'	, breakname: true},
     },
     night: {
       limpeza: {link: 'darrowNutriol', name: 'Darrow Nutriol', src:"src/images/products/darrow-nutriol.webp", description: 'LIMPA E SUAVIZA COM NUTRIÇÃO INTENSA.', breakname: false},
       tonico: {link: 'clarinsSoothing', name: 'Clarins Soothing', src:"src/images/products/clarins-soothing-tonico.webp", description: 'HIDRATA A SUA PELE, DEIXANDO-A MACIA E SUAVE.', breakname: false},
-      hidratacao: {link: 'biodermaAtoderm', name: 'Bioderma Atoderm Intensive Baume', src:"src/images/products/bioderma-atoderm-intensive-baume.webp", description: <>ALIVIA DESCONFORTOS, <br/>ALÉM DE HIDRATAR E NUTRIR.</>, breakname: false},
+      hidratacao: {link: 'biodermaAtoderm', name: 'Bioderma Atoderm Intensive Baume', src:"src/images/products/bioderma-atoderm-intensive-baume.webp", description: 'ALIVIA DESCONFORTOS, <br/>ALÉM DE HIDRATAR E NUTRIR.', breakname: false},
       protetor: {link: 'skinceuticalsFerulic', name: 'SkinCeuticals C E Ferulic', src:"src/images/products/skinceuticals-ferulic.webp", description: 'PROTEGE A PELE E COMBATE O ENVELHECIMENTO', breakname: false},
     },
     qrCode: 'src/images/loucas-por-beleza/pele-seca.svg'
@@ -66,13 +66,13 @@ const ROUTINES_DATA = {
   normal: {
     daytime: {
       limpeza: {link: 'vichyPurete', name:'Vichy Pureté Thermale', src:"src/images/products/vichy-purete-thermale-espuma.webp", description: 'LIMPEZA SUAVE E PROFUNDA, REMOVE IMPUREZAS E ILUMINA A PELE.', breakname: false},
-      tonico: {link: 'dermageGlycolique', name:'Dermage Glycolique Daily Peel', src:"src/images/products/dermage-glycolique-daily.webp", description: <>DEIXA A PELE UNIFORMIZADA, <br/>LIMPA E ILUMINADA.</>, breakname: false},
-      hidratacao: {link: 'hadaLabo', name: 'Hada Labo Gokujyun White Gel FPS 50', src:"src/images/products/hada-labo-gokujyun.webp", description: <>UM HIDRATANTE SEM ÓLEO PARA EVITAR <br />O EXCESSO DE OLEOSIDADE NA PELE.</>, breakname: false},
-      protetor: {link: 'isdinFotoprotector', name: <>ISDIN Fotoprotector Fusion <br /> Water 5 Stars FPS 60</>, src:"src/images/products/ISDIN-Fotoprotector-Fusion.webp", description: 'PROTEGE A SUA PELE CONTROLA A OLEOSIDADE E PROMOVE TOQUE SECO.', breakname: true},
+      tonico: {link: 'dermageGlycolique', name:'Dermage Glycolique Daily Peel', src:"src/images/products/dermage-glycolique-daily.webp", description: 'DEIXA A PELE UNIFORMIZADA, <br/>LIMPA E ILUMINADA.', breakname: false},
+      hidratacao: {link: 'hadaLabo', name: 'Hada Labo Gokujyun White Gel FPS 50', src:"src/images/products/hada-labo-gokujyun.webp", description: 'UM HIDRATANTE SEM ÓLEO PARA EVITAR <br/>O EXCESSO DE OLEOSIDADE NA PELE.', breakname: false},
+      protetor: {link: 'isdinFotoprotector', name: 'ISDIN Fotoprotector Fusion <br/> Water 5 Stars FPS 60', src:"src/images/products/ISDIN-Fotoprotector-Fusion.webp", description: 'PROTEGE A SUA PELE CONTROLA A OLEOSIDADE E PROMOVE TOQUE SECO.', breakname: true},
     },
     night: {
       limpeza: {link: 'vichyPurete', name:'Vichy Pureté Thermale',  src:"src/images/products/vichy-purete-thermale-espuma.webp", description: 'LIMPEZA SUAVE E PROFUNDA, REMOVE IMPUREZAS E ILUMINA A PELE.', breakname: false},
-      tonico: {link: 'dermageGlycolique', name:'Dermage Glycolique Daily Peel', src:"src/images/products/dermage-glycolique-daily.webp", description: <>DEIXA A PELE UNIFORMIZADA, <br/>LIMPA E ILUMINADA.</>, breakname: false},
+      tonico: {link: 'dermageGlycolique', name:'Dermage Glycolique Daily Peel', src:"src/images/products/dermage-glycolique-daily.webp", description: 'DEIXA A PELE UNIFORMIZADA, <br/>LIMPA E ILUMINADA.', breakname: false},
       hidratacao: {link: 'vichyMineral', name: 'Vichy Minéral 89', src:"src/images/products/vichy-mineral.webp", description: 'DEIXA A PELE MACIA E AGE CONTRA AGRESSORES EXTERNOS', breakname: false},
       protetor: {link: 'cliniqueSmart', name: 'Clinique Smart Night Clinical MD Retinol', src:"src/images/products/clinique-smart-night.webp", description: 'ACELERA A RENOVAÇÃO CELULAR E SUAVIZA RUGAS E LINHAS FINAS', breakname: false},
     },

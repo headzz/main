@@ -11,7 +11,7 @@ const NormalFirstPage = () => {
       </StyleNormalContentText>
 
       <StyleDryContentDescription>
-        <Text align="center" weight="200" size="3.6rem">{first_page_description_text}</Text>
+        <Text align="center" weight="200" size="3.6rem">{firstPageDescriptionGlobal}</Text>
       </StyleDryContentDescription>
     </Flex>
     

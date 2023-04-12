@@ -4,14 +4,15 @@ const OilyFirstPage = () => {
 
   const dataContent = React.useContext(ContentContext);
 
+  const oilyTitleTextPage = transformString(oily_title);
   return <Wrapper>
     <Flex>
       <StyleOilyContentText>
-        <Text align="center" weight="200">{oily_title}</Text>
+        <Text align="center" weight="200">{oilyTitleTextPage}</Text>
       </StyleOilyContentText>
 
       <StyleDryContentDescription>
-        <Text align="center" weight="200" size="3.6rem">{first_page_description_text}</Text>
+        <Text align="center" weight="200" size="3.6rem">{firstPageDescriptionGlobal}</Text>
       </StyleDryContentDescription>
     </Flex>
     

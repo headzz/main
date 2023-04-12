@@ -2,14 +2,15 @@ const CombinationFirstPage = () => {
   const {combination_first_page_jost_text, first_page_description_text} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
-
+  const combinationTitleTextPage = transformString(combination_first_page_jost_text);
+  const firstPageDescriptionGlobal = transformString(first_page_description_text)
   return <Wrapper>
     <Flex>
       <StyleCombinationFirstPageText>
-        <Text align="center" weight="200">{combination_first_page_jost_text}</Text>
+        <Text align="center" weight="200">{combinationTitleTextPage}</Text>
       </StyleCombinationFirstPageText>
       <StyleCombinationFirstPageDescription>
-        <Text align="center" size="3.6rem" weight="200">{first_page_description_text}</Text>
+        <Text align="center" size="3.6rem" weight="200">{firstPageDescriptionGlobal}</Text>
       </StyleCombinationFirstPageDescription>
     </Flex>
     

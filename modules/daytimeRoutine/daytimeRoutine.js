@@ -16,40 +16,40 @@ const DaytimeRoutine = () => {
       <AnchorTag>
         <Flex>
           <Text align="center" size="1.6rem" weight="800">{ROUTINES_TITLES.limpeza.title}</Text>
-          <Text align="center" size="1.4rem" weight="200">{ROUTINES_DATA[dayRoutineType].daytime.limpeza.description}</Text>
+          <Text align="center" size="1.4rem" weight="200">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.limpeza.description)}</Text>
           <ProductImage src={ROUTINES_DATA[dayRoutineType].daytime.limpeza.src} />
           <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].daytime.limpeza.breakname}>
-            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].daytime.limpeza.name}</Text>
+            <Text align="center" size="1.4rem" weight="800">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.limpeza.name)}</Text>
           </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
       <AnchorTag largeDescription>
         <Flex>
           <Text align="center" size="1.6rem" weight="800">{ROUTINES_TITLES.tonico.title}</Text>
-          <Text align="center" size="1.4rem" weight="200">{ROUTINES_DATA[dayRoutineType].daytime.tonico.description}</Text>
+          <Text align="center" size="1.4rem" weight="200">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.tonico.description)}</Text>
           <ProductImage src={ROUTINES_DATA[dayRoutineType].daytime.tonico.src} />
           <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].daytime.tonico.breakname}>
-            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].daytime.tonico.name}</Text>
+            <Text align="center" size="1.4rem" weight="800">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.tonico.name)}</Text>
           </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
       <AnchorTag largeDescription>
         <Flex>
           <Text align="center" size="1.6rem" weight="800">{ROUTINES_TITLES.hidratacao.title}</Text>
-          <Text align="center" size="1.4rem" weight="200">{ROUTINES_DATA[dayRoutineType].daytime.hidratacao.description}</Text>
+          <Text align="center" size="1.4rem" weight="200">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.hidratacao.description)}</Text>
           <ProductImage src={ROUTINES_DATA[dayRoutineType].daytime.hidratacao.src} />
           <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].daytime.hidratacao.breakname}>
-            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].daytime.hidratacao.name}</Text>
+            <Text align="center" size="1.4rem" weight="800">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.hidratacao.name)}</Text>
           </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
       <AnchorTag>
         <Flex>
           <Text align="center" size="1.6rem" weight="800">{ROUTINES_TITLES.protetor.title}</Text>
-          <Text align="center" size="1.4rem" weight="200">{ROUTINES_DATA[dayRoutineType].daytime.protetor.description}</Text>
+          <Text align="center" size="1.4rem" weight="200">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.protetor.description)}</Text>
           <ProductImage src={ROUTINES_DATA[dayRoutineType].daytime.protetor.src} />
           <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].daytime.protetor.breakname}>
-            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].daytime.protetor.name}</Text>
+            <Text align="center" size="1.4rem" weight="800">{() => transformString(ROUTINES_DATA[dayRoutineType].daytime.protetor.name)}</Text>
           </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>

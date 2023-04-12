@@ -3,14 +3,17 @@ const BeginPage = () => {
 
   const dataContent = React.useContext(ContentContext);
 
+  const beginTextPage = transformString(beginTextJost);
+  const beginDescriptionTextPage = transformString(beginText);
+  
   return <BeginWrapper onClick={() => dataContent.setContent('chooseSkinType')}>
     <Flex>
       <BeginTextWrapper>
         <Text align="center" weight="200">
-          {beginTextJost}
+          {beginTextPage}
         </Text>
         <Text align="center" weight="200" alternateFamily>
-            {beginText}
+            {beginDescriptionTextPage}
           <SpanBegin>
             ✨
           </SpanBegin>

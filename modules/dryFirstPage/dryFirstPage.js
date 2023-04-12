@@ -3,14 +3,15 @@ const DryFirstPage = () => {
   const { dry_skin_jost, first_page_description_text } = pageTexts
 
   const dataContent = React.useContext(ContentContext);
+  const drySkinTitlePAge = transformString(dry_skin_jost);
 
   return <Wrapper>
     <Flex>
       <StyleDryContentText>
-        <Text align="center" weight="200">{dry_skin_jost}</Text>
+        <Text align="center" weight="200">{drySkinTitlePAge}</Text>
       </StyleDryContentText>
       <StyleDryContentDescription>
-        <Text align="center" size="3.6rem" weight="200">{first_page_description_text}</Text>
+        <Text align="center" size="3.6rem" weight="200">{firstPageDescriptionGlobal}</Text>
       </StyleDryContentDescription>
     </Flex>
     
