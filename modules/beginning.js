@@ -11,9 +11,6 @@ const BeginPage = () => {
         </Text>
         <Text align="center" weight="200" alternateFamily>
             {beginText}
-          <SpanBegin>
-            ✨
-          </SpanBegin>
         </Text>
         <Flex>
           <ButtonInvisible onClick={() => dataContent.setContent('chooseSkinType')}>
