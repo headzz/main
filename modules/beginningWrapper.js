@@ -1,5 +1,5 @@
 const BeginWrapper = styled.section({
-  backgroundImage: "url('./images/BLZ_QUIZ_IMAGENS_INICIO.png')",
+  backgroundImage: "url('src/images/BLZ_QUIZ_IMAGENS_INICIO.png')",
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
@@ -8,19 +8,28 @@ const BeginWrapper = styled.section({
 })
 
 const BeginTextWrapper = styled.div({
+  position: 'relative',
   marginTop: '10%',
-  width: '52%',
-  ['& div']: {marginTop: '64px', width: '100%'},
+  width: '55%',
+  ['& div']: {marginTop: '48px', width: '100%'},
+  ['& > p span::after']: {content: '✨'},
+})
+
+const SpanBegin = styled.div({
+  bottom: '150px',
+    left: '93%',
+    position: 'absolute',
+    fontSize: '3rem'
 })
 
 const EndTextWrapper = styled.div({
   marginTop: '20%',
-  width: '70%',
+  width: '80%',
   ['& p:nth-child(2)']: {marginTop: '48px', width: '100%'},
 })
 
 const EndWrapper = styled.section({
-  backgroundImage: "url('./images/BLZ_QUIZ_IMAGENS_FIM.png')",
+  backgroundImage: "url('src/images/BLZ_QUIZ_IMAGENS_FIM.png')",
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',

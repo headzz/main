@@ -3,7 +3,7 @@ const NightRoutine = () => {
 
   const dataContent = React.useContext(ContentContext);
 
-  const nightRoutineType = STEPS[dataContent.steps].routine
+  const dayRoutineType = STEPS[dataContent.steps].routine
 
   return <Wrapper>
     <Flex>
@@ -13,36 +13,51 @@ const NightRoutine = () => {
     </Flex>
 
     <NightRoutineWrapper>
-      <AnchorTag onClick={() => {dataContent.setContent('productDetailPage'); dataContent.setProduct(ROUTINES_DATA[nightRoutineType].night.limpeza.link)}}>
+      <AnchorTag>
         <Flex>
           <Text align="center" size="1.8rem" weight="800">{ROUTINES_TITLES.limpeza.title}</Text>
           <Text align="center" size="1.4rem" weight="200">{ROUTINES_TITLES.limpeza.description}</Text>
-          <ProductImage src={ROUTINES_DATA[nightRoutineType].night.limpeza.src} />
+          <ProductImage src={ROUTINES_DATA[dayRoutineType].night.limpeza.src} />
+          <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].night.limpeza.breakname}>
+            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].night.limpeza.name}</Text>
+          </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
-      <AnchorTag largeDescription onClick={() => {dataContent.setContent('productDetailPage'); dataContent.setProduct(ROUTINES_DATA[nightRoutineType].night.tonico.link)}}>
+      <AnchorTag largeDescription>
         <Flex>
           <Text align="center" size="1.8rem" weight="800">{ROUTINES_TITLES.tonico.title}</Text>
           <Text align="center" size="1.4rem" weight="200">{ROUTINES_TITLES.tonico.description}</Text>
-          <ProductImage src={ROUTINES_DATA[nightRoutineType].night.tonico.src} />
+          <ProductImage src={ROUTINES_DATA[dayRoutineType].night.tonico.src} />
+          <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].night.tonico.breakname}>
+            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].night.tonico.name}</Text>
+          </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
-      <AnchorTag largeDescription onClick={() => {dataContent.setContent('productDetailPage'); dataContent.setProduct(ROUTINES_DATA[nightRoutineType].night.hidratacao.link)}}>
+      <AnchorTag largeDescription>
         <Flex>
           <Text align="center" size="1.8rem" weight="800">{ROUTINES_TITLES.hidratacao.title}</Text>
           <Text align="center" size="1.4rem" weight="200">{ROUTINES_TITLES.hidratacao.description}</Text>
-          <ProductImage src={ROUTINES_DATA[nightRoutineType].night.hidratacao.src} />
+          <ProductImage src={ROUTINES_DATA[dayRoutineType].night.hidratacao.src} />
+          <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].night.hidratacao.breakname}>
+            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].night.hidratacao.name}</Text>
+          </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
-      <AnchorTag largeDescription onClick={() => {dataContent.setContent('productDetailPage'); dataContent.setProduct(ROUTINES_DATA[nightRoutineType].night.protetor.link)}}>
+      <AnchorTag largeDescription>
         <Flex>
           <Text align="center" size="1.8rem" weight="800">{ROUTINES_TITLES.antiidade.title}</Text>
           <Text align="center" size="1.4rem" weight="200">{ROUTINES_TITLES.antiidade.description}</Text>
-          <ProductImage src={ROUTINES_DATA[nightRoutineType].night.protetor.src} />
+          <ProductImage src={ROUTINES_DATA[dayRoutineType].night.protetor.src} />
+          <NameDaytimeRoutineText break={ROUTINES_DATA[dayRoutineType].night.protetor.breakname}>
+            <Text align="center" size="1.4rem" weight="800">{ROUTINES_DATA[dayRoutineType].night.protetor.name}</Text>
+          </NameDaytimeRoutineText>
         </Flex>
       </AnchorTag>
     </NightRoutineWrapper>
     
+    <QRCodeSkinDescription><Text align="center" size="1.4rem" weight="200">SAIBA MAIS SOBRE SUA PELE <br/>EM <span>LOUCAS POR BELEZA</span></Text></QRCodeSkinDescription>
+    <QRCodeSkinImage src={ROUTINES_DATA[dayRoutineType].qrCode}/>
+
     <BackPagePosition>
       <ButtonInvisible onClick={() => {dataContent.setContent('chooseRoutine'); dataContent.setSteps(STEPS[dataContent.steps].previous)}}>
         <Text size="2.8rem" weight="400">{'<'}</Text>

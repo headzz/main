@@ -1,16 +1,17 @@
-const DryFirstPage = () => {
+const OilyFirstPage = () => {
   
-  const { dry_skin_jost, first_page_description_text } = pageTexts
+  const {oily_title, first_page_description_text} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
   return <Wrapper>
     <Flex>
-      <StyleDryContentText>
-        <Text align="center" weight="200">{dry_skin_jost}</Text>
-      </StyleDryContentText>
+      <StyleOilyContentText>
+        <Text align="center" weight="200">{oily_title}</Text>
+      </StyleOilyContentText>
+
       <StyleDryContentDescription>
-        <Text align="center" size="3.6rem" weight="200">{first_page_description_text}</Text>
+        <Text align="center" weight="200" size="3.6rem">{first_page_description_text}</Text>
       </StyleDryContentDescription>
     </Flex>
     
@@ -20,7 +21,7 @@ const DryFirstPage = () => {
       </ButtonInvisible>
     </BackPagePosition>
     <NextPagePosition>
-      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps('dry_create')}}>
+      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps('oily_create')}}>
         <Text size="2.8rem" weight="400">{'>'}</Text>
       </ButtonInvisible>
     </NextPagePosition>

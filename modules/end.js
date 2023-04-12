@@ -6,9 +6,6 @@ const EndPage = () => {
   return <EndWrapper>
     <Flex>
       <EndTextWrapper>
-        <Text align="center" alternateFamily>
-          {end_title}
-        </Text>
         <Text align="center" weight="200">
           {end_description}
         </Text>
