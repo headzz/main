@@ -3,6 +3,24 @@ const DryFirstPage = () => {
   const { dry_skin_jost, first_page_description_text } = pageTexts
 
   const dataContent = React.useContext(ContentContext);
+  
+  const transformString = (textValue) => {
+    if(textValue.includes('<br/>')){
+        const stringDecomposed = textValue.split('<br/>')
+        
+        const dataNeeded = stringDecomposed.map((item, index) => {
+            if(index === stringDecomposed.length -1){
+                return <>{item}<br/></>
+            }
+
+            return <>{item}</>
+        })
+        return dataNeeded
+    }
+
+    return textValue
+} 
+
   const drySkinTitlePAge = transformString(dry_skin_jost);
 
   return <Wrapper>
