@@ -8,7 +8,7 @@ const PROTETOR = {title:"PROTETOR SOLAR", description: "HIDRATA, REFRESCA E PROT
 
 const ANTI_IDADE = {title: "TRATAMENTO", description:"PROTEGE E REJUVENESCE SUA PELE, NUTRINDO E HIDRATANDO-A."}
 
-export const ROUTINES_TITLES = {
+const ROUTINES_TITLES = {
   limpeza: {...LIMPEZA_FACIAL}, 
   tonico: {...TONICO}, 
   hidratacao: {...HIDRATACAO}, 
@@ -16,7 +16,7 @@ export const ROUTINES_TITLES = {
   antiidade: {...ANTI_IDADE}
 }
 
-export const ROUTINES_DATA = {
+const ROUTINES_DATA = {
   combination: { 
     daytime: 
     {
@@ -80,7 +80,7 @@ export const ROUTINES_DATA = {
   },
 }
 
-export const PRODUCT_DATA = {
+const PRODUCT_DATA = {
   cerave: {
     image: 'src/images/products/cerave.webp',
     qrcode: 'src/images/qrcode/cerave-foaming-cleanser-gel-de-limpeza-facial.png',
