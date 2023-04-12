@@ -9,16 +9,16 @@ const BeginPage = () => {
         
         const dataNeeded = stringDecomposed.map((item, index) => {
             if(index === stringDecomposed.length -1){
-                return <>{item}<br/></>
+                return <span key={`${item}-${index}`}>{item}<br/></span>
             }
 
-            return <>{item}</>
+            return <span key={`${item}-${index}`}>{item}</span>
         })
         return dataNeeded
     }
 
     return textValue
-} 
+  } 
 
   const beginTextPage = transformString(beginTextJost);
   const beginDescriptionTextPage = transformString(beginText);

@@ -9,16 +9,16 @@ const CombinationFirstPage = () => {
         
         const dataNeeded = stringDecomposed.map((item, index) => {
             if(index === stringDecomposed.length -1){
-                return <>{item}<br/></>
+                return <span key={`${item}-${index}`}>{item}<br/></span>
             }
 
-            return <>{item}</>
+            return <span key={`${item}-${index}`}>{item}</span>
         })
         return dataNeeded
     }
 
     return textValue
-} 
+  } 
 
   const combinationTitleTextPage = transformString(combination_first_page_jost_text);
   const firstPageDescriptionGlobal = transformString(first_page_description_text)
