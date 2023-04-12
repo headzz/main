@@ -7,7 +7,7 @@ const CreateRoutine = () => {
     <Flex>
       <StyleRoutineText>
         <Text align="center" weight="200">{create_routine_jost}</Text>
-        <Text align="center" alternateFamily weight="200">{create_routine}</Text>
+        <Text align="center" weight="200">{create_routine}</Text>
       </StyleRoutineText>  
     </Flex>
     <FlexStyleRoutine>

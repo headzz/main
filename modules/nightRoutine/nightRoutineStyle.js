@@ -8,8 +8,8 @@ const NightRoutineWrapper = styled.div({
   display:'grid',
   gridTemplateColumns: '1fr 1fr',
   gridRow: 'auto auto',
-  gridColumnGap: '20px',
-  gridRowGap: '100px',
+  gridColumnGap: '30px',
+  gridRowGap: '50px',
   alignItems: 'center',
   justifyItems: 'center'
 })

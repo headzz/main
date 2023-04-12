@@ -13,7 +13,8 @@ function App() {
     middleContent: <MiddleContent />,
     dryFirstPage: <DryFirstPage />,
     normalFirstPage: <NormalFirstPage />,
-    productDetailPage: <ProductDetailPage />
+    productDetailPage: <ProductDetailPage />,
+    oilyFirstPage: <OilyFirstPage />
   }
 
   return (

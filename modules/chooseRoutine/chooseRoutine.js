@@ -3,6 +3,7 @@ const ChooseRoutine = () => {
 
   const dataContent = React.useContext(ContentContext);
 
+  console.log(STEPS[dataContent.steps])
   return <Wrapper>
     <Flex>
       <StyleChooseRoutineText>
@@ -20,9 +21,11 @@ const ChooseRoutine = () => {
     </ChooseRoutineButtons>
     
     <BackPagePosition>
-      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps('combination_create')}}>
+      <ButtonInvisible onClick={() => {dataContent.setContent('createRoutine'); dataContent.setSteps(STEPS[dataContent.steps].previous)}}>
         <Text size="2.8rem" weight="400">{'<'}</Text>
       </ButtonInvisible>
     </BackPagePosition>
   </Wrapper>
 }
+
+export default ChooseRoutine
