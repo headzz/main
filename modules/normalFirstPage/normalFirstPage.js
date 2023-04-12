@@ -4,6 +4,23 @@ const NormalFirstPage = () => {
 
   const dataContent = React.useContext(ContentContext);
 
+  const transformString = (textValue) => {
+    if(textValue.includes('<br/>')){
+        const stringDecomposed = textValue.split('<br/>')
+        
+        const dataNeeded = stringDecomposed.map((item, index) => {
+            if(index === stringDecomposed.length -1){
+                return <span key={`${item}-${index}`}>{item}<br/></span>
+            }
+
+            return <span key={`${item}-${index}`}>{item}</span>
+        })
+        return dataNeeded
+    }
+
+    return textValue
+  } 
+  
   const firstPageDescriptionGlobal = transformString(first_page_description_text)
 
   return <Wrapper>
