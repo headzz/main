@@ -31,10 +31,10 @@ const BeginPage = () => {
         </Text>
         <Text align="center" weight="200" alternateFamily>
             {beginDescriptionTextPage}
-          <SpanBegin>
+        </Text>
+        <SpanBegin>
             ✨
           </SpanBegin>
-        </Text>
         <Flex>
           <ButtonInvisible onClick={() => dataContent.setContent('chooseSkinType')}>
             <Text align="center" size="3rem" weight="200" fontStyle="italic">{beginButton}</Text>
