@@ -4,9 +4,9 @@ function App() {
   const pages = {
     begin: <BeginPage />,
     chooseSkinType: <ChooseSkinType />,
-    // createRoutine: <CreateRoutine />,
-    // chooseRoutine: <ChooseRoutine />,
-    // combinationFirstPage: <CombinationFirstPage />,
+    createRoutine: <CreateRoutine />,
+    chooseRoutine: <ChooseRoutine />,
+    combinationFirstPage: <CombinationFirstPage />,
     // daytimeRoutine: <DaytimeRoutine />,
     // nightRoutine: <NightRoutine />,
     // endFlow: <EndPage />,
