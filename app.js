@@ -20,5 +20,3 @@ function App() {
     <>{pages[dataContent.content]}</>
   )
 }
-
-export default App
