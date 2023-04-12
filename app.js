@@ -7,13 +7,13 @@ function App() {
     createRoutine: <CreateRoutine />,
     chooseRoutine: <ChooseRoutine />,
     combinationFirstPage: <CombinationFirstPage />,
-    // daytimeRoutine: <DaytimeRoutine />,
-    // nightRoutine: <NightRoutine />,
-    // endFlow: <EndPage />,
+    daytimeRoutine: <DaytimeRoutine />,
+    nightRoutine: <NightRoutine />,
+    endFlow: <EndPage />,
     // middleContent: <MiddleContent />,
     // dryFirstPage: <DryFirstPage />,
     // normalFirstPage: <NormalFirstPage />,
-    // productDetailPage: <ProductDetailPage />
+    productDetailPage: <ProductDetailPage />
   }
 
   return (
