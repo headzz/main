@@ -3,7 +3,7 @@ const BeginPage = () => {
 
   const dataContent = React.useContext(ContentContext);
 
-  return <BeginWrapper>
+  return <BeginWrapper onClick={() => dataContent.setContent('chooseSkinType')}>
     <Flex>
       <BeginTextWrapper>
         <Text align="center" weight="200">
