@@ -27,5 +27,3 @@ const ChooseRoutine = () => {
     </BackPagePosition>
   </Wrapper>
 }
-
-export default ChooseRoutine

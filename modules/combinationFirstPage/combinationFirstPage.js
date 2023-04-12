@@ -25,5 +25,3 @@ const CombinationFirstPage = () => {
     </NextPagePosition>
   </Wrapper>
 }
-
-export default CombinationFirstPage
