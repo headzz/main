@@ -8,8 +8,8 @@ const NormalFirstPage = () => {
     <Flex>
       <StyleNormalContentText>
         <Text align="center" weight="200" alternateFamily>{normal_title}</Text>
-        <Text align="center" weight="200" size="3.6rem">A pele normal possui textura saudável e perfeito equilíbrio entre água e sebo: 
-          <br />nem gordura demais, nem ressecamento de menos.</Text>
+        <Text align="center" weight="200" size="3.6rem">O seu rosto não apresenta excesso de brilho, poros e perfeito equilíbrio entre água e sebo: 
+          nem gordura demais, nem ressecamento de menos.</Text>
         <Text align="center" weight="200" size="3.6rem">{normal_end}</Text>
       </StyleNormalContentText>
     </Flex>

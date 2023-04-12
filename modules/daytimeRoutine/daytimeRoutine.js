@@ -43,6 +43,9 @@ const DaytimeRoutine = () => {
       </AnchorTag>
     </DaytimeRoutineWrapper>
     
+    <QRCodeDescription><Text align="center" size="2rem" weight="200">SAIBA MAIS SOBRE SUA PELE NO <strong>LOUCAS POR BELEZA</strong></Text></QRCodeDescription>
+    <QRCodeSkinImage src={ROUTINES_DATA[dayRoutineType].qrCode}/>
+
     <BackPagePosition>
       <ButtonInvisible onClick={() => {dataContent.setContent('chooseRoutine'); dataContent.setSteps(STEPS[dataContent.steps].previous)}}>
         <Text size="2.8rem" weight="400">{'<'}</Text>
