@@ -9,18 +9,9 @@ const BeginWrapper = styled.section({
 
 const BeginTextWrapper = styled.div({
   position: 'relative',
-  marginTop: '10%',
+  marginTop: '6%',
   width: '55%',
-  ['& div']: {marginTop: '48px', width: '100%'},
-  ['& > p span::after']: {content: '✨'},
-})
-
-const SpanBegin = styled.div({
-  bottom: '150px',
-    left: '93%',
-    position: 'absolute',
-    fontSize: '3rem'
-})
+  ['& div']: {marginTop: '36px', width: '100%'},})
 
 const EndTextWrapper = styled.div({
   marginTop: '20%',

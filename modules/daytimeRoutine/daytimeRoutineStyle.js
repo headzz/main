@@ -31,7 +31,7 @@ const ProductImage = styled.img({
 })
 
 const TitleDaytimeRoutineText = styled.div({
-  marginTop: '12%',
+  marginTop: '6%',
   width: '70%',
 })
 

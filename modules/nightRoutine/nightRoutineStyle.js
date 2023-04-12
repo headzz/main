@@ -1,5 +1,5 @@
 const TitleNightRoutineText = styled.div({
-  marginTop: '12%',
+  marginTop: '6%',
   width: '70%',
 })
 
