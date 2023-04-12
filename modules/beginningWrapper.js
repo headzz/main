@@ -1,5 +1,5 @@
 const BeginWrapper = styled.section({
-  backgroundImage: "url('src/images/BLZ_QUIZ_IMAGENS_INICIO.png')",
+  backgroundImage: "url('./images/BLZ_QUIZ_IMAGENS_INICIO.png')",
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
@@ -29,7 +29,7 @@ const EndTextWrapper = styled.div({
 })
 
 const EndWrapper = styled.section({
-  backgroundImage: "url('src/images/BLZ_QUIZ_IMAGENS_FIM.png')",
+  backgroundImage: "url('./images/BLZ_QUIZ_IMAGENS_FIM.png')",
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover',
