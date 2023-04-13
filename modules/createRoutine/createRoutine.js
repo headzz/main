@@ -1,14 +1,14 @@
 const CreateRoutine = () => {
-  const {create_routine_jost} = pageTexts
+  const {create_routine} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
   return <Wrapper>
     <Flex>
-      <StyleRoutineText>
-        <Text align="center" weight="200">{create_routine_jost}</Text>
+      <StyleCreateRoutineText>
         <Text align="center" weight="200">VAMOS CRIAR O SEU RITUAL DE <StyleRoutineSpanChangeFont>SKINCARE DIÁRIO?</StyleRoutineSpanChangeFont></Text>
-      </StyleRoutineText>  
+        <Text align="center" weight="200">{create_routine}</Text>
+      </StyleCreateRoutineText>  
     </Flex>
     <FlexStyleRoutine>
         <PrimaryButton padding="32px" onClick={()=>{dataContent.setContent("chooseRoutine"); dataContent.setSteps(STEPS[dataContent.steps].next)}}>

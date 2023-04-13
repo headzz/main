@@ -4,7 +4,6 @@ const pageTexts = {
   beginButton: 'QUERO! >',
   chooseSkinTypeTextJost: "ENTÃO VAMOS LÁ. QUAL É O SEU",
   chooseSkinTypeText: "TIPO DE PELE?",
-  create_routine_jost: <>VAMOS CRIAR O SEU RITUAL DE <span>SKINCARE DIÁRIO?</span></>,
   create_routine: "SÓ SE FOR AGORA!",
   routine_description: "ESSA É A COMBINAÇÃO IDEAL PRA VOCÊ:",
   combination_first_page_jost_text: <>VOCÊ OBSERVA <br /> UMA OLEOSIDADE <br /> EXCESSIVA NA ZONA T <br /> DO ROSTO, QUE PEDE ALGUNS CUIDADOS ESPECÍFICOS?</>,

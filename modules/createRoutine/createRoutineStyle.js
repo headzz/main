@@ -3,7 +3,7 @@ const FlexStyleRoutine = styled(Flex)({
     width: '100%',
     ['& button']: {width: '70%'}
 })
-const StyleRoutineText = styled.div({
+const StyleCreateRoutineText = styled.div({
     marginTop: '45%',
     marginBottom: '3%',
     width: '90%',
