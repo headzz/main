@@ -6,6 +6,6 @@ const ChooseRoutineButtons = styled(Flex)({
 })
 
 const StyleChooseRoutineText = styled.div({
-  marginTop: '55%',
+  marginTop: '45%',
   width: '70%',
 })
