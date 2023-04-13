@@ -17,7 +17,7 @@ const EndPage = () => {
       </ButtonInvisible>
     </BackPagePosition>
     <NextPagePosition>
-      <ButtonInvisible onClick={() => {dataContent.setContent('begin'); dataContent.setSteps('')}}>
+      <ButtonInvisible onClick={() => {dataContent.setContent('chooseSkinType'); dataContent.setSteps('')}}>
         <Text size="2.8rem" weight="400">{'INÍCIO >'}</Text>
       </ButtonInvisible>
     </NextPagePosition>

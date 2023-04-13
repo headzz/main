@@ -47,11 +47,5 @@ const ChooseSkinType = () => {
             </SecondaryButton>
           </ChooseSkinTypeButtonWrapper>
         </Flex>
-
-        <ChooseSkinTypeGoBack>
-          <ButtonInvisible onClick={() => {dataContent.setContent('begin'); dataContent.setSteps('')}}>
-            <Text size="2.8rem" weight="400">{'<'}</Text>
-          </ButtonInvisible>
-        </ChooseSkinTypeGoBack>
   </Wrapper>
 }
