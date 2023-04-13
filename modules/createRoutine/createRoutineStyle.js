@@ -8,7 +8,7 @@ const StyleCreateRoutineText = styled.div({
     marginBottom: '3%',
     width: '90%',
     ['& span']: {fontFamily: '"Bely-Display",Helvetica,serif'},
-    ['& p:']: {marginBottom: '3%'},
+    ['& p']: {marginBottom: '2%'},
 })
 
 const StyleRoutineSpanChangeFont = styled.span({
