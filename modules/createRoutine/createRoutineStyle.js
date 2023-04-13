@@ -4,8 +4,13 @@ const FlexStyleRoutine = styled(Flex)({
     ['& button']: {width: '70%'}
 })
 const StyleRoutineText = styled.div({
-    marginTop: '55%',
+    marginTop: '45%',
+    marginBottom: '3%',
     width: '90%',
     ['& span']: {fontFamily: '"Bely-Display",Helvetica,serif'},
     ['& p:']: {marginBottom: '3%'},
+})
+
+const StyleRoutineSpanChangeFont = styled.span({
+    fontFamily: '"Bely-Display",Helvetica,serif'
 })

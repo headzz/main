@@ -1,5 +1,5 @@
 const CreateRoutine = () => {
-  const {create_routine_jost, create_routine} = pageTexts
+  const {create_routine_jost} = pageTexts
 
   const dataContent = React.useContext(ContentContext);
 
@@ -7,7 +7,7 @@ const CreateRoutine = () => {
     <Flex>
       <StyleRoutineText>
         <Text align="center" weight="200">{create_routine_jost}</Text>
-        <Text align="center" weight="200">{create_routine}</Text>
+        <Text align="center" weight="200">VAMOS CRIAR O SEU RITUAL DE <StyleRoutineSpanChangeFont>SKINCARE DIÁRIO?</StyleRoutineSpanChangeFont></Text>
       </StyleRoutineText>  
     </Flex>
     <FlexStyleRoutine>
