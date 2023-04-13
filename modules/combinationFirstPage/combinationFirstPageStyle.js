@@ -1,5 +1,5 @@
 const StyleCombinationFirstPageText = styled.div({
-  marginTop: '50%',
+  marginTop: '45%',
   width: '65%',
 })
 

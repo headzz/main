@@ -34,13 +34,13 @@ const ChooseSkinType = () => {
             
             <SecondaryButton padding="24px" onClick={() => {
               dataContent.setContent('combinationFirstPage'); 
-              dataContent.setSteps('combination_choose_routine')}} 
+              dataContent.setSteps('combination_first_page')}} 
             width="100%">
               <Text fontStyle="italic" size="2.6rem" weight="400">MISTA</Text>
             </SecondaryButton>
 
             <SecondaryButton padding="24px" onClick={() => {
-              dataContent.setContent('middleContent'); 
+              dataContent.setContent('oilyFirstPage'); 
               dataContent.setSteps('oily_middle')}} 
             width="100%">
               <Text fontStyle="italic" size="2.6rem" weight="400">OLEOSA</Text>
